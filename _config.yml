@@ -1,0 +1,65 @@
+# Website settings
+url: "localhost:4000"
+
+# Internal nav
+nav:
+  main:
+    home: "/"
+    blog: "/blog"
+    sketches: "/sketches"
+    projects: "/projects"
+  blog:
+    all: "/blog"
+    popular: "/blog/popular"
+    tags: "/blog/tags"
+
+# Bio settings
+name: "Aboorva Devarajan"
+description: ""
+thumbnail_path: "profile-photos/aboo.jpg"
+website_repo_url: ""
+
+# URLs
+contact_urls:
+  linkedin:
+    url: "https://www.linkedin.com/in/aboorvadevarajan"
+    label: "LinkedIn"
+    icon: "linkedin-square"
+  facebook:
+    url: "https://www.facebook.com/aboorva.devarajan"
+    label: "Facebook"
+    icon: "facebook-square"
+  github:
+    url: "https://github.com/AboorvaDevarajan/"
+    label: "GitHub"
+    icon: "github-square"
+  email:
+    url: "mailto:aburvadevarajan@gmail.com"
+    label: "Email"
+    value: "aburvadevarajan@gmail.com"
+    icon: "envelope-square"
+  twitter:
+    url: "https://twitter.com/AburvaDev"
+    label: "Twitter"
+    icon: "twitter-square"
+    username: "@AburvaDev"
+  stackoverflow:
+    url: "https://stackoverflow.com/users/1291157"
+    label: "SO"
+    icon: "stack-exchange"
+
+# Jekyll build settings
+paginate: 10
+paginate_path: "/blog/page:num"
+permalink: "/blog/:year/:month/:day/:title/"
+sass:
+  sass_dir: "/assets/css"
+  style: :compressed
+highlighter: rouge
+repository: 
+
+# Plugins (GitHub Pages only support a few)
+gems:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-paginate
